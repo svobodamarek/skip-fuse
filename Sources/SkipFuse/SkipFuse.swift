@@ -13,6 +13,6 @@
 #endif
 
 @_exported import SkipBridge
-#if canImport(SkipAndroidBridge)
+#if os(Android) || ROBOLECTRIC
 @_exported import SkipAndroidBridge
 #endif
