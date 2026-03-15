@@ -13,4 +13,6 @@
 #endif
 
 @_exported import SkipBridge
+#if canImport(SkipAndroidBridge)
 @_exported import SkipAndroidBridge
+#endif
